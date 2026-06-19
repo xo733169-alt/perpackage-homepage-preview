@@ -3,6 +3,26 @@
   "trailingSlash": false,
   "rewrites": [
     {
+      "source": "/company",
+      "destination": "/company.html"
+    },
+    {
+      "source": "/products",
+      "destination": "/products.html"
+    },
+    {
+      "source": "/custom",
+      "destination": "/custom.html"
+    },
+    {
+      "source": "/sustainability",
+      "destination": "/sustainability.html"
+    },
+    {
+      "source": "/contact",
+      "destination": "/contact.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }
