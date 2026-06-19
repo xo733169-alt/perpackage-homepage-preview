@@ -9,10 +9,11 @@
       --white: #ffffff;
       --logo: #083682;
       --logo-deep: #041a40;
-      --surface: #f7f8fa;
-      --panel: #f2f5f8;
-      --line: #dde5ef;
-      --muted: #536173;
+      --surface: #ffffff;
+      --panel: #f4f7fb;
+      --tint: #eaf1fb;
+      --line: rgba(8, 54, 130, .14);
+      --muted: rgba(4, 26, 64, .68);
     }
 
     * {
@@ -21,7 +22,7 @@
 
     body {
       margin: 0;
-      background: linear-gradient(135deg, #f7f8fa 0%, #f2f5f8 100%);
+      background: var(--white);
       color: var(--logo-deep);
       font-family: Pretendard, "Noto Sans KR", "Apple SD Gothic Neo", Arial, sans-serif;
     }
@@ -89,7 +90,7 @@
       padding: 0 14px;
       border: 1px solid var(--line);
       border-radius: 8px;
-      background: var(--white);
+      background: var(--panel);
       color: var(--logo);
       font-size: 13px;
       font-weight: 850;
@@ -133,7 +134,7 @@
       padding: 0 14px;
       border: 1px solid rgba(8, 54, 130, .24);
       border-radius: 999px;
-      background: var(--panel);
+      background: var(--tint);
       color: var(--logo);
       font-size: 13px;
       font-weight: 900;
@@ -150,7 +151,7 @@
       border: 1px solid var(--line);
       border-radius: 8px;
       background: var(--white);
-      box-shadow: 0 24px 70px rgba(4, 26, 64, .08);
+      box-shadow: 0 24px 70px rgba(4, 26, 64, .07);
     }
 
     .page-head {
