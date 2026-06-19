@@ -9,7 +9,10 @@
       --white: #ffffff;
       --logo: #083682;
       --logo-deep: #041a40;
-      --logo-soft: #eef4ff;
+      --surface: #f7f8fa;
+      --panel: #f2f5f8;
+      --line: #dde5ef;
+      --muted: #536173;
     }
 
     * {
@@ -18,7 +21,7 @@
 
     body {
       margin: 0;
-      background: linear-gradient(135deg, #eef4ff 0%, #eef4ff 100%);
+      background: linear-gradient(135deg, #f7f8fa 0%, #f2f5f8 100%);
       color: var(--logo-deep);
       font-family: Pretendard, "Noto Sans KR", "Apple SD Gothic Neo", Arial, sans-serif;
     }
@@ -67,7 +70,7 @@
     .brand span {
       display: block;
       margin-top: 4px;
-      color: var(--logo);
+      color: var(--muted);
       font-size: 13px;
       font-weight: 700;
     }
@@ -84,7 +87,7 @@
       align-items: center;
       min-height: 38px;
       padding: 0 14px;
-      border: 1px solid rgba(8, 54, 130, .16);
+      border: 1px solid var(--line);
       border-radius: 8px;
       background: var(--white);
       color: var(--logo);
@@ -115,7 +118,7 @@
     .intro p {
       max-width: 640px;
       margin: 18px 0 0;
-      color: var(--logo);
+      color: var(--muted);
       font-size: 17px;
       line-height: 1.7;
       font-weight: 700;
@@ -130,7 +133,7 @@
       padding: 0 14px;
       border: 1px solid rgba(8, 54, 130, .24);
       border-radius: 999px;
-      background: var(--logo-soft);
+      background: var(--panel);
       color: var(--logo);
       font-size: 13px;
       font-weight: 900;
@@ -144,10 +147,10 @@
 
     .page {
       overflow: hidden;
-      border: 1px solid rgba(8, 54, 130, .14);
+      border: 1px solid var(--line);
       border-radius: 8px;
       background: var(--white);
-      box-shadow: 0 24px 70px rgba(8, 54, 130, .1);
+      box-shadow: 0 24px 70px rgba(4, 26, 64, .08);
     }
 
     .page-head {
@@ -156,8 +159,8 @@
       justify-content: space-between;
       gap: 14px;
       padding: 18px 20px;
-      border-bottom: 1px solid var(--logo-soft);
-      background: var(--logo-soft);
+      border-bottom: 1px solid var(--line);
+      background: var(--panel);
     }
 
     .page-head strong {
