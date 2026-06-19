@@ -2284,3 +2284,72 @@ body {
     max-width: 100%;
   }
 }
+
+/* Perpackage icon image pass */
+.peerl-home-renewal .peerl-home-route-card__icon {
+  width: 64px;
+  height: 64px;
+}
+
+.peerl-home-renewal .peerl-home-route-card__icon img {
+  width: 44px;
+  height: 44px;
+}
+
+.peerl-home-renewal .peerl-home-category a {
+  align-content: start;
+  min-height: 108px;
+  padding-top: 16px;
+}
+
+.peerl-home-renewal .peerl-home-category a > img {
+  width: 34px;
+  height: 34px;
+  margin-bottom: 8px;
+  object-fit: contain;
+}
+
+.peerl-home-renewal .peerl-home-category strong,
+.peerl-home-renewal .peerl-home-category span {
+  position: relative;
+  z-index: 1;
+}
+
+.peerl-home-renewal .peerl-home-service-card span img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.peerl-home-renewal .peerl-home-process-grid img {
+  width: 46px;
+  height: 46px;
+}
+
+.peerl-home-renewal .peerl-sub-card > img.peerl-sub-icon {
+  width: 58px;
+  height: 58px;
+  aspect-ratio: auto;
+  padding: 8px;
+  margin-bottom: 18px;
+  border: 1px solid rgba(154, 106, 53, 0.16);
+  border-radius: 16px;
+  background: #fff8ec;
+  object-fit: contain;
+}
+
+@media (max-width: 760px) {
+  .peerl-home-renewal .peerl-home-category a {
+    min-height: 96px;
+  }
+
+  .peerl-home-renewal .peerl-home-category a > img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .peerl-home-renewal .peerl-home-process-grid img {
+    width: 42px;
+    height: 42px;
+  }
+}
