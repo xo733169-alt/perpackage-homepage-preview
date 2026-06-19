@@ -2353,3 +2353,258 @@ body {
     height: 42px;
   }
 }
+
+/* Perpackage logo color pass */
+.peerl-home-renewal {
+  --peerl-navy: #083682;
+  --peerl-navy-deep: #041a40;
+  --peerl-ink: #101827;
+  --peerl-muted: #61708a;
+  --peerl-line: #d9e4f3;
+  --peerl-soft: #f3f7fc;
+  --peerl-sage: #8a6a3a;
+  --peerl-paper: #fff9f0;
+  --peerl-gold: #a87535;
+  background: #f7faff;
+}
+
+.peerl-home-renewal .peerl-home-nav {
+  border-bottom-color: rgba(8, 54, 130, 0.14);
+  background: rgba(255, 255, 255, 0.97);
+  box-shadow: 0 16px 40px rgba(8, 54, 130, 0.08);
+}
+
+.peerl-home-renewal .peerl-home-brand__mark--logo {
+  width: 108px;
+  height: 42px;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  overflow: visible;
+}
+
+.peerl-home-renewal .peerl-home-brand__mark--logo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.peerl-home-renewal .peerl-home-brand__text strong,
+.peerl-home-renewal .peerl-home-section-head h2,
+.peerl-home-renewal .peerl-home-route-card strong,
+.peerl-home-renewal .peerl-home-service-card strong,
+.peerl-home-renewal .peerl-home-process-grid strong,
+.peerl-home-renewal .peerl-home-guide-card strong,
+.peerl-home-renewal .peerl-sub-hero h1,
+.peerl-home-renewal .peerl-sub-head h2,
+.peerl-home-renewal .peerl-sub-card h3 {
+  color: #0c1630;
+}
+
+.peerl-home-renewal .peerl-home-brand__text em,
+.peerl-home-renewal .peerl-home-section-head p,
+.peerl-home-renewal .peerl-home-route-card em,
+.peerl-home-renewal .peerl-home-service-card em,
+.peerl-home-renewal .peerl-home-guide-card em,
+.peerl-home-renewal .peerl-sub-lead,
+.peerl-home-renewal .peerl-sub-text,
+.peerl-home-renewal .peerl-sub-card p {
+  color: #61708a;
+}
+
+.peerl-home-renewal .peerl-home-nav__tabs a:hover,
+.peerl-home-renewal .peerl-home-nav__tabs a.is-active,
+.peerl-home-renewal .peerl-home-route-card__action,
+.peerl-home-renewal .peerl-home-category span,
+.peerl-home-renewal .peerl-home-guide-card b,
+.peerl-home-renewal .peerl-sub-kicker,
+.peerl-home-renewal .peerl-sub-meta span {
+  color: #083682;
+}
+
+.peerl-home-renewal .peerl-home-nav__tabs a.is-active {
+  background: #eef4ff;
+  color: #083682;
+}
+
+.peerl-home-renewal .peerl-home-nav__tabs a.is-active strong,
+.peerl-home-renewal .peerl-home-nav__tabs a.is-active span {
+  color: #083682;
+}
+
+.peerl-home-renewal .peerl-home-nav__tabs a.is-active,
+.peerl-home-renewal .peerl-home-nav__guide,
+.peerl-home-renewal .peerl-home-btn--secondary,
+.peerl-home-renewal .peerl-home-category a,
+.peerl-home-renewal .peerl-home-product-card,
+.peerl-home-renewal .peerl-home-service-card,
+.peerl-home-renewal .peerl-home-guide-card,
+.peerl-home-renewal .peerl-sub-card {
+  border-color: rgba(8, 54, 130, 0.15);
+}
+
+.peerl-home-renewal .peerl-home-nav__quote,
+.peerl-home-renewal .peerl-home-btn--primary,
+.peerl-home-renewal .peerl-home-guide-cta a,
+.peerl-home-renewal .peerl-sub-cta a,
+.peerl-home-renewal .peerl-home-sticky-cta a:last-child {
+  background: #083682;
+  color: #fff;
+  box-shadow: 0 18px 34px rgba(8, 54, 130, 0.2);
+}
+
+.peerl-home-renewal .peerl-home-nav__quote:hover,
+.peerl-home-renewal .peerl-home-btn--primary:hover,
+.peerl-home-renewal .peerl-home-guide-cta a:hover,
+.peerl-home-renewal .peerl-sub-cta a:hover,
+.peerl-home-renewal .peerl-home-sticky-cta a:last-child:hover {
+  background: #062b68;
+}
+
+.peerl-home-renewal .peerl-home-nav__guide,
+.peerl-home-renewal .peerl-home-btn--secondary,
+.peerl-home-renewal .peerl-home-sticky-cta a:first-child {
+  background: #fff;
+  color: #083682;
+}
+
+.peerl-home-renewal .peerl-home-hero {
+  background:
+    radial-gradient(circle at 16% 18%, rgba(8, 54, 130, 0.1), transparent 30%),
+    linear-gradient(135deg, #f4f8ff 0%, #fff9f0 54%, #eef4ff 100%);
+}
+
+.peerl-home-renewal .peerl-home-proof,
+.peerl-home-renewal .peerl-home-route-card,
+.peerl-home-renewal .peerl-home-service-visual,
+.peerl-home-renewal .peerl-home-guide-cta,
+.peerl-home-renewal .peerl-sub-hero {
+  border-color: rgba(8, 54, 130, 0.13);
+  background: #fff;
+  box-shadow: 0 22px 60px rgba(8, 54, 130, 0.08);
+}
+
+.peerl-home-renewal .peerl-home-routes,
+.peerl-home-renewal .peerl-home-process,
+.peerl-home-renewal .peerl-home-guide,
+.peerl-home-renewal .peerl-sub-band:nth-of-type(even) {
+  background: #f3f7fc;
+}
+
+.peerl-home-renewal .peerl-home-route-card::before,
+.peerl-home-renewal .peerl-home-process-grid li::after {
+  background: linear-gradient(90deg, #083682, rgba(168, 117, 53, 0.78));
+}
+
+.peerl-home-renewal .peerl-home-route-card__icon,
+.peerl-home-renewal .peerl-home-service-card span,
+.peerl-home-renewal .peerl-home-guide-card span,
+.peerl-home-renewal .peerl-sub-card > img.peerl-sub-icon {
+  border-color: rgba(8, 54, 130, 0.16);
+  background: #eef4ff;
+}
+
+.peerl-home-renewal .peerl-home-route-card__badge,
+.peerl-home-renewal .peerl-home-route-card__no {
+  border-color: rgba(168, 117, 53, 0.28);
+  background: #fff6e8;
+  color: #8a5a20;
+}
+
+.peerl-home-renewal .peerl-home-category a::before,
+.peerl-home-renewal .peerl-home-guide-card b::after {
+  background: #083682;
+}
+
+.peerl-home-renewal .peerl-home-category a::after {
+  background: linear-gradient(180deg, rgba(8, 54, 130, 0.08), rgba(255, 249, 240, 0.7));
+}
+
+.peerl-home-renewal .peerl-home-product-card:hover,
+.peerl-home-renewal .peerl-home-route-card:hover,
+.peerl-home-renewal .peerl-home-service-card:hover,
+.peerl-home-renewal .peerl-home-guide-card:hover,
+.peerl-home-renewal .peerl-sub-card:hover {
+  border-color: rgba(8, 54, 130, 0.28);
+  box-shadow: 0 24px 54px rgba(8, 54, 130, 0.12);
+}
+
+.peerl-home-renewal.peerl-subpage {
+  background: #f7faff;
+}
+
+.peerl-home-renewal .peerl-sub-hero {
+  background: linear-gradient(135deg, #f5f8ff 0%, #fffaf3 100%);
+}
+
+.peerl-home-renewal .peerl-sub-meta span,
+.peerl-home-renewal .peerl-sub-list li::marker {
+  color: #083682;
+}
+
+.peerl-home-renewal .peerl-sub-footer {
+  background: #041a40;
+}
+
+@media (max-width: 760px) {
+  .peerl-home-renewal .peerl-home-brand {
+    gap: 8px;
+  }
+
+  .peerl-home-renewal .peerl-home-brand__mark--logo {
+    width: 92px;
+    height: 36px;
+  }
+
+  .peerl-home-renewal .peerl-home-hero__inner,
+  .peerl-home-renewal .peerl-home-routes,
+  .peerl-home-renewal .peerl-home-split,
+  .peerl-home-renewal .peerl-home-process,
+  .peerl-home-renewal .peerl-home-guide,
+  .peerl-home-renewal .peerl-home-category {
+    width: calc(100vw - 32px);
+    max-width: calc(100vw - 32px);
+  }
+
+  .peerl-home-renewal .peerl-home-hero__visual,
+  .peerl-home-renewal .peerl-home-hero__visual img,
+  .peerl-home-renewal .peerl-home-hero__visual figcaption {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .peerl-home-renewal .peerl-home-hero__visual {
+    overflow: hidden;
+  }
+
+  .peerl-home-renewal .peerl-home-hero__visual::before {
+    inset: 18px 10px -10px 40px;
+  }
+
+  .peerl-home-renewal .peerl-home-hero__visual figcaption {
+    max-width: calc(100vw - 32px);
+    white-space: normal !important;
+    word-break: break-all;
+    overflow-wrap: anywhere;
+  }
+
+  .peerl-home-renewal .peerl-home-hero__visual figcaption span {
+    display: block;
+  }
+
+  .peerl-home-renewal .peerl-home-lead,
+  .peerl-home-renewal .peerl-home-section-desc,
+  .peerl-home-renewal .peerl-home-route-card em,
+  .peerl-home-renewal .peerl-home-service-card em,
+  .peerl-home-renewal .peerl-home-guide-card em {
+    width: min(100%, 330px);
+    max-width: calc(100vw - 56px);
+    white-space: normal;
+    word-break: keep-all;
+    overflow-wrap: anywhere;
+  }
+}
