@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>페르패키지 수정 페이지 HTML 미리보기</title>
+  <style>
+    :root {
+      --brand: #083682;
+      --deep: #041a40;
+      --line: #d9e4f3;
+      --soft: #f3f7fc;
+      --paper: #fff9f0;
+      --gold: #a87535;
+      --muted: #61708a;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: linear-gradient(135deg, #f5f8ff 0%, #fff9f0 100%);
+      color: var(--deep);
+      font-family: Pretendard, "Noto Sans KR", "Apple SD Gothic Neo", Arial, sans-serif;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      border-bottom: 1px solid rgba(8, 54, 130, .14);
+      background: rgba(255, 255, 255, .95);
+      backdrop-filter: blur(12px);
+    }
+
+    .wrap {
+      width: min(1240px, calc(100% - 40px));
+      margin: 0 auto;
+    }
+
+    .top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      min-height: 82px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      min-width: 0;
+    }
+
+    .brand img {
+      width: 108px;
+      height: 42px;
+      object-fit: contain;
+    }
+
+    .brand strong {
+      display: block;
+      font-size: 18px;
+      font-weight: 900;
+    }
+
+    .brand span {
+      display: block;
+      margin-top: 4px;
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      gap: 8px;
+    }
+
+    nav a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 38px;
+      padding: 0 14px;
+      border: 1px solid rgba(8, 54, 130, .16);
+      border-radius: 8px;
+      background: #fff;
+      color: var(--brand);
+      font-size: 13px;
+      font-weight: 850;
+      text-decoration: none;
+    }
+
+    main {
+      padding: 56px 0 80px;
+    }
+
+    .intro {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      align-items: end;
+      gap: 24px;
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(32px, 5vw, 62px);
+      line-height: 1.08;
+      letter-spacing: 0;
+    }
+
+    .intro p {
+      max-width: 640px;
+      margin: 18px 0 0;
+      color: var(--muted);
+      font-size: 17px;
+      line-height: 1.7;
+      font-weight: 700;
+      word-break: keep-all;
+      overflow-wrap: anywhere;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      min-height: 36px;
+      padding: 0 14px;
+      border: 1px solid rgba(168, 117, 53, .24);
+      border-radius: 999px;
+      background: #fff6e8;
+      color: var(--gold);
+      font-size: 13px;
+      font-weight: 900;
+      white-space: nowrap;
+    }
+
+    .pages {
+      display: grid;
+      gap: 28px;
+    }
+
+    .page {
+      overflow: hidden;
+      border: 1px solid rgba(8, 54, 130, .14);
+      border-radius: 8px;
+      background: #fff;
+      box-shadow: 0 24px 70px rgba(8, 54, 130, .1);
+    }
+
+    .page-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      padding: 18px 20px;
+      border-bottom: 1px solid var(--line);
+      background: var(--soft);
+    }
+
+    .page-head strong {
+      font-size: 18px;
+      font-weight: 900;
+    }
+
+    .page-head a {
+      color: var(--brand);
+      font-size: 13px;
+      font-weight: 850;
+      text-decoration: none;
+    }
+
+    iframe {
+      display: block;
+      width: 100%;
+      height: 780px;
+      border: 0;
+      background: #fff;
+    }
+
+    @media (max-width: 760px) {
+      .wrap {
+        width: min(100% - 28px, 1240px);
+      }
+
+      .top,
+      .intro,
+      .page-head {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      nav {
+        justify-content: flex-start;
+      }
+
+      iframe {
+        height: 720px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap top">
+      <div class="brand">
+        <img src="assets/brand/perpackage-logo-crop.png" alt="페르패키지 로고">
+        <div>
+          <strong>수정 페이지 HTML 미리보기</strong>
+          <span>Vercel 배포 전 로컬 파일 확인용</span>
+        </div>
+      </div>
+      <nav aria-label="개별 페이지 열기">
+        <a href="company.html">회사소개</a>
+        <a href="products.html">제품소개</a>
+        <a href="custom.html">맞춤제작</a>
+        <a href="sustainability.html">지속가능성</a>
+        <a href="contact.html">고객지원</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="intro">
+      <div>
+        <h1>수정된 서브페이지를<br>HTML로 바로 확인하세요</h1>
+        <p>아래 미리보기는 실제 수정된 HTML 파일을 그대로 불러옵니다. Vercel 토큰 없이도 로컬에서 회사소개, 제품소개, 맞춤제작, 지속가능성, 고객지원 페이지를 확인할 수 있습니다.</p>
+      </div>
+      <span class="badge">local HTML preview</span>
+    </section>
+
+    <section class="pages" aria-label="수정된 페이지 미리보기">
+      <article class="page">
+        <div class="page-head"><strong>회사소개</strong><a href="company.html">새 탭처럼 열기</a></div>
+        <iframe src="company.html" title="회사소개 페이지 미리보기"></iframe>
+      </article>
+      <article class="page">
+        <div class="page-head"><strong>제품소개</strong><a href="products.html">새 탭처럼 열기</a></div>
+        <iframe src="products.html" title="제품소개 페이지 미리보기"></iframe>
+      </article>
+      <article class="page">
+        <div class="page-head"><strong>맞춤제작</strong><a href="custom.html">새 탭처럼 열기</a></div>
+        <iframe src="custom.html" title="맞춤제작 페이지 미리보기"></iframe>
+      </article>
+      <article class="page">
+        <div class="page-head"><strong>지속가능성</strong><a href="sustainability.html">새 탭처럼 열기</a></div>
+        <iframe src="sustainability.html" title="지속가능성 페이지 미리보기"></iframe>
+      </article>
+      <article class="page">
+        <div class="page-head"><strong>고객지원</strong><a href="contact.html">새 탭처럼 열기</a></div>
+        <iframe src="contact.html" title="고객지원 페이지 미리보기"></iframe>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
